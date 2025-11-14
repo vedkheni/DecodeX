@@ -1,3 +1,85 @@
+# Project .gitignore for DecodeX
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== IDE / editor settings =====
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+/.history/
+
+# ===== Dependency directories =====
+node_modules/
+vendor/
+
+# Composer PHAR (local)
+composer.phar
+
+# ===== Environment and local configs =====
+.env
+.env.*
+/.env.local
+phpunit.xml
+phpunit.xml.cache
+.phpunit.result.cache
+
+# ===== Logs, runtime and build artifacts =====
+*.log
+error_log
+output.asm
+*.cache
+*.tmp
+tmp/
+cache/
+logs/
+sessions/
+
+# CodeIgniter / application runtime
+/writable/
+/writable/*
+
+# Uploads and temporary asset folders (common in this project)
+assets/temp/
+assets/upload/
+assets/_salary_pay/
+
+# OS generated crash logs
+hs_err_pid*
+
+# Database files
+*.sqlite
+*.sqlite3
+
+# PHPUnit coverage and reports
+coverage/
+phpunit-report.xml
+
+# PHPStorm metadata
+.idea/
+/.phpstorm.meta.php
+
+# Node / tooling
+dist/
+build/
+
+# Backup and swap files
+*~
+*.swp
+*.swo
+.#*
+
+# Windows image file caches
+ehthumbs.db
+Icon?
+
+# Security: don't commit secrets
+*.pem
+*.key
+*.crt
 # CakePHP 3
 
 /vendor/*
