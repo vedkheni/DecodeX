@@ -20,4 +20,3 @@
 - **Version Control**: Git & GitHub  
 - **Other**: Optionally Composer for dependencies  
 
-## 📂 Repository Structure  
