@@ -16,6 +16,7 @@
 - **Backend**: PHP  
 - **Database**: MySQL (or MariaDB)  
 - **Frontend**: HTML5, CSS3, JavaScript  
-- **Version Control**: Git & GitHub  
+- **Version Control**: Git & GitHub
+- **Server**: Apache
 
 
